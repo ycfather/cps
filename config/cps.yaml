@@ -1,0 +1,19 @@
+server:
+    port: 8080
+
+encrypt:
+    rsa:
+        private_pem: 'key/rsa-private.pem'
+        public_pem: 'key/rsa-public.pem'
+
+sso:
+    url: 'https://sso.lecommons.com/login.php'
+    site: 'a27n9'
+
+datasource:
+    host: '127.0.0.1'
+    port: 3306
+    db: 'cps'
+    username: 'root'
+    password: ''
+    params: 'charset=utf8'
